@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "kellan" && password === "admin1") {
         alert("You have successfully logged in.");
-        location.reload();
+  window.location.assign("user.html");
          
         
 
